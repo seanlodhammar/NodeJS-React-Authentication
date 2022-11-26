@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.HomeModalWrapper {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.HomeModal {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 0;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.custom-btn {
+    top: 240px !important;
+}
+
+#email-text {
+    text-align: center;
+    font-size: larger;
+    position: relative;
+    top: 165px;
+}
+
+#submit-pfp {
+    position: relative;
+    top: 220px;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: medium;
+    background: linear-gradient(29deg, rgba(145,230,247,1) 27%, rgba(233,134,203,1) 100%);
+}
+
+#logout-btn {
+    position: relative;
+    top: 210px;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: medium;
+    background: linear-gradient(29deg, rgba(145,230,247,1) 27%, rgba(233,134,203,1) 100%);
+}
+
+#google-pfp {
+    position: absolute;
+    right: 200px;
+    border-radius: 50%;
+    top: 50px;
+}
+
+#facebook-pfp {
+    position: absolute;
+    right: 190px;
+    width: 100px;
+    border-radius: 50%;
+    top: 50px;
+}
+
+#github-pfp {
+    position: absolute;
+    right: 190px;
+    width: 100px;
+    border-radius: 50%;
+    top: 50px;
+}
+
+#custom-pfp {
+    position: absolute;
+    right: 190px;
+    width: 100px;
+    border-radius: 50%;
+    top: 50px;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 260px;
+    left: 170px;
+}
+
+#current-provider {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 160px;
+}

@@ -1,0 +1,56 @@
+.InputField-email {
+    position: relative;
+}
+
+.InputField-password {
+    position: relative;
+    top: 120px;
+}
+
+input[type="text"] {
+    width: 350px;
+    height: 22px;
+    font-size: medium;
+    outline: none;
+    border: none;
+    border-bottom: solid gray 1px;
+}
+
+input[type="text"]:focus {
+    border-bottom: solid slateblue 1px;
+}
+
+#email-label {
+    position: absolute;
+    top: -30px;
+    z-index: 3;
+    font-size: medium;
+}
+
+#password-label {
+    position: absolute;
+    top: -30px;
+    z-index: 3;
+}
+
+#email-field {
+    position: absolute;
+}
+
+#password-field {
+    position: absolute;
+}
+
+.error {
+    border-bottom: solid #FF0000 1px !important;
+}
+
+#error-message {
+    color: #ff4141;
+    position: absolute;
+    left: 96px;
+    text-align: left;
+    margin: 0;
+    top: 30px;
+    width: 320px;
+}
